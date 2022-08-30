@@ -10,19 +10,13 @@ function myFunction() {
 }
 
 function yourDecision() {//function definition
-var myCat = confirm("Do You Want to See Photos of my cat, Mister?");//taking confirm action from user if (black cat==true) //if press yes then value is true
-    {
+    const myCat = confirm("Do You Want to See Photos of my cat, Mister?");//taking confirm action from user if (black cat==true) //if press yes then value is true
+    console.log('This is my Cat >',myCat)
+    if (myCat == true){ 
         document.write("Excellent! You're in the Right Place");//
+    }else if (myCat == false){
+        document.write ("Sorry to Hear That! Take Care!");
     }
-    do {
-	else
-} while (Cancel); //if press Cancel then value is false
-    {
-        document.write("Sorry to Hear That! Take Care!");
-    }
-
-
-
 }
 
 
