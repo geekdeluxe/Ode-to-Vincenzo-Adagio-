@@ -19,6 +19,18 @@ function yourDecision() {//function definition
     }
 }
 
+function blackCat() {//function definition
+    const blackCat = confirm("Are You Superstitious of Black Cats?");//
+    if (blackCat == true){
+        document.write("Fair Warning: Mister is a Black Cat");//
+    }else if (blackCat == false){
+        document.write ("Great! Mister is a Black Cat and Only Brings Good Luck!");//
+
+
+    }
+
+}
+
 
 
 
